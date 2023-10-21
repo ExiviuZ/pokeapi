@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import "./style.css";
-import Pokedex from "./assets/pokedex.png";
 
 const pokemonTypesAndColors = {
   normal: "#A8A77A",
@@ -134,7 +133,7 @@ function App() {
     <div>
       <header>
         <div className="brand">
-          <img className="brand-logo" src={Pokedex} alt="" />
+          <img className="brand-logo" src="pokedex.png" alt="" />
           <h1>Pokedex</h1>
         </div>
 
