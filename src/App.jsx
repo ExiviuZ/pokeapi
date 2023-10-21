@@ -133,7 +133,7 @@ function App() {
     <div>
       <header>
         <div className="brand">
-          <img className="brand-logo" src="pokedex.png" alt="" />
+          <img className="brand-logo" src="/pokedex.png" alt="" />
           <h1>Pokedex</h1>
         </div>
 
